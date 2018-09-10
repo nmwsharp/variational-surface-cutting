@@ -315,7 +315,7 @@ void Gui::buildToolChest() {
 // Perform GUI intialization for each external gui
 void Gui::loadProjectGuis() {
 
-    viewer->projectGuis.push_back( new CutsGui(this,"Cuts and Cones") );
+    viewer->projectGuis.push_back( new CutsGui(this,"Variational Cuts") );
 
     buildToolChest();
 }
