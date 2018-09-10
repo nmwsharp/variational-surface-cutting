@@ -57,7 +57,7 @@ Generally speaking, this is a research code dump, so you'll need to explore a bi
 4. Set the weight of the Hencky energy term to `3.0` [*Cuts Parameters --> Hencky Distortion --> Weight*]
 5. Set the #steps to `300` [*Cuts Control --> # steps*]
 6. Run the algorithm for the specified number of steps [*Cuts Control --> Take Many Steps*]
-7. Visualize the resuting cuts [*Cuts Control --> Show boundary, Cuts Control --> Show Extra Cuts*]
+7. Visualize the resulting cuts [*Cuts Control --> Show boundary, Cuts Control --> Show Extra Cuts*]
 8. Visualize the resulting parameterization [*Cuts Control --> Visualization --> Cut Mesh Param*]
 9. Export the resulting cut & parameterized mesh [*Cuts Control --> Save --> Save .obj with injective texcoords*]
 
