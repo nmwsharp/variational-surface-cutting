@@ -47,7 +47,7 @@ public:
     VertexData<LabelVec> phi; // signed distance function --> negative for current region, positive for others
 
     // Parameters
-    double stepSizeParam = 1.0; // note that this is just saved state, actual step is passed in to takeGradientStep()
+    double stepSizeParam = 0.01; // note that this is just saved state, actual step is passed in to takeGradientStep()
 
     double weightLengthRegularization = 1.0;
     double weightBilapRegularization = 1.0;
