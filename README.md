@@ -1,5 +1,7 @@
 # Variational Surface Cutting
 
+![Tennis Balls](http://www.cs.cmu.edu/~kmcrane/Projects/VariationalCuts/teaser.jpg)
+
 This is the codebase associated with the research paper ["Variational Surface Cutting"](http://www.cs.cmu.edu/~kmcrane/Projects/VariationalCuts/paper.pdf) by Nicholas Sharp and Keenan Crane (SIGGRAPH 2018). Our method develops a new, variational approach to generating cuts on curved surfaces such that they can be flattened in to the plane with little distortion. The resulting cuts are smooth, and particularly suitable for applications in fabrication.
 
 **Warning:** This codebase is essentially a dump of research code, and is not polished, trustworthy, or even user-friendly! If you are looking to leverage this code in a project, or generate comparisons, feel free to contact the authors.
