@@ -33,5 +33,5 @@ LIST(APPEND SUB_GUI_LIBRARIES "cuts-gui")
 
 
 ### Create an executable for the gui
-add_executable(grand-central-gui gui.cpp main.cpp)
-target_link_libraries(grand-central-gui viewer ${SUB_GUI_LIBRARIES})
+add_executable(cuts gui.cpp main.cpp)
+target_link_libraries(cuts viewer ${SUB_GUI_LIBRARIES})
