@@ -102,3 +102,5 @@
  \
     /* Unary not */ \
     template <typename T> XXXDATA<T> & XXXDATA<T>::operator!() {for(size_t i = 0; i < data.size(); i++) data[i] = !data[i]; return *this;}
+
+
