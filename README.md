@@ -26,7 +26,7 @@ The Variational Surface Cutting algorithm actually only generates the *cuts* in 
 ## Building
 
 To checkout and compile on a *nix machine, run:
-```
+```sh
 git clone https://github.com/nmwsharp/variational-surface-cutting.git
 cd variational-surface-cutting/ && git submodule update --init --recursive
 mkdir build && cd build/ && cmake -DCMAKE_BUILD_TYPE=Release .. && make -j4
@@ -36,7 +36,12 @@ A few notes:
   - Empty directories for the dependencies? You forgot the submodules! See above.
   - The `BUILD_TYPE=Release` flag turns on optimizations in the resulting makefile. Use `BUILD_TYPE=Debug` for debugging options.
   - We use [SuiteSparse](http://faculty.cse.tamu.edu/davis/suitesparse.html) for sparse linear solves. You should be able install SuiteSparse via your package manager.
-  
+ 
+On Ubuntu, you may need to install some common C++/openGL development packages first (as well as Suitesparse). This command gets most of the typical ones (but may not be exactly correct for your machine).
+```sh
+apt-get install build-essential cmake xorg-dev libglu1-mesa-dev freeglut3-dev mesa-common-dev libsuitesparse-dev
+```
+
 ## Running
 
 Building generates the executable `build/bin/cuts`, which accepts a mesh in OBJ format as input. We've included an example mesh in the repo, so you can test the codebase with:
